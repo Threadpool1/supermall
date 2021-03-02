@@ -10,8 +10,8 @@ const routes = [
   {
     path: '/',
     // name: 'home',
-    component: home,
-    // redirect: 'Home' //重定向
+    // component: home,
+    redirect: home //重定向
   },
   {
     path: '/home',
